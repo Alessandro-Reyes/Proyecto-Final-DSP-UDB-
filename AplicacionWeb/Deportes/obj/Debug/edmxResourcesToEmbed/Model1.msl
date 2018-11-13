@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DeportesModelStoreContainer" CdmEntityContainer="DeportesEntities">
+    <EntitySetMapping Name="Almacen">
+      <EntityTypeMapping TypeName="DeportesModel.Almacen">
+        <MappingFragment StoreEntitySet="Almacen">
+          <ScalarProperty Name="Id_Almacen" ColumnName="Id_Almacen" />
+          <ScalarProperty Name="NombreAlmacen" ColumnName="NombreAlmacen" />
+          <ScalarProperty Name="FechaEntradaProducto" ColumnName="FechaEntradaProducto" />
+          <ScalarProperty Name="FechaSalidaProducto" ColumnName="FechaSalidaProducto" />
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="DeportesModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Id_Cliente" ColumnName="Id_Cliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Dui" ColumnName="Dui" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompraProv">
+      <EntityTypeMapping TypeName="DeportesModel.CompraProv">
+        <MappingFragment StoreEntitySet="CompraProv">
+          <ScalarProperty Name="Id_Comprov" ColumnName="Id_Comprov" />
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+          <ScalarProperty Name="PrecioTotalCompra" ColumnName="PrecioTotalCompra" />
+          <ScalarProperty Name="FechaCompra" ColumnName="FechaCompra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DevolucionProv">
+      <EntityTypeMapping TypeName="DeportesModel.DevolucionProv">
+        <MappingFragment StoreEntitySet="DevolucionProv">
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+          <ScalarProperty Name="Cantidad_dep" ColumnName="Cantidad_dep" />
+          <ScalarProperty Name="Producto_dep" ColumnName="Producto_dep" />
+          <ScalarProperty Name="Id_DevolucionProv" ColumnName="Id_DevolucionProv" />
+          <ScalarProperty Name="Id_Cliente" ColumnName="Id_Cliente" />
+          <ScalarProperty Name="FechaDevolucion" ColumnName="FechaDevolucion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="DeportesModel.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+          <ScalarProperty Name="TipoProducto" ColumnName="TipoProducto" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+          <ScalarProperty Name="Existencias" ColumnName="Existencias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoTransaccion">
+      <EntityTypeMapping TypeName="DeportesModel.TipoTransaccion">
+        <MappingFragment StoreEntitySet="TipoTransaccion">
+          <ScalarProperty Name="Id_TipoTrans" ColumnName="Id_TipoTrans" />
+          <ScalarProperty Name="TipoTrans" ColumnName="TipoTrans" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transacciones">
+      <EntityTypeMapping TypeName="DeportesModel.Transacciones">
+        <MappingFragment StoreEntitySet="Transacciones">
+          <ScalarProperty Name="Id_Trans" ColumnName="Id_Trans" />
+          <ScalarProperty Name="Id_Ventas" ColumnName="Id_Ventas" />
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+          <ScalarProperty Name="Id_DevolucionProv" ColumnName="Id_DevolucionProv" />
+          <ScalarProperty Name="Id_Comprov" ColumnName="Id_Comprov" />
+          <ScalarProperty Name="Id_TipoTrans" ColumnName="Id_TipoTrans" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ventas">
+      <EntityTypeMapping TypeName="DeportesModel.Ventas">
+        <MappingFragment StoreEntitySet="Ventas">
+          <ScalarProperty Name="Id_Ventas" ColumnName="Id_Ventas" />
+          <ScalarProperty Name="Id_Productos" ColumnName="Id_Productos" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="FechaVentas" ColumnName="FechaVentas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

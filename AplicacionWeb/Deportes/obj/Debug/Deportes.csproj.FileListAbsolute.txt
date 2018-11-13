@@ -1,0 +1,246 @@
+F:\DSP\Deportes\Deportes\bin\ApplicationInsights.config
+F:\DSP\Deportes\Deportes\bin\roslyn\csc.exe
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DSP\Deportes\Deportes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DSP\Deportes\Deportes\bin\roslyn\System.Collections.Immutable.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\System.Reflection.Metadata.dll
+F:\DSP\Deportes\Deportes\bin\roslyn\vbc.exe
+F:\DSP\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe
+F:\DSP\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe.config
+F:\DSP\Deportes\Deportes\bin\Deportes.dll.config
+F:\DSP\Deportes\Deportes\bin\Deportes.dll
+F:\DSP\Deportes\Deportes\bin\Deportes.pdb
+F:\DSP\Deportes\Deportes\bin\Antlr3.Runtime.dll
+F:\DSP\Deportes\Deportes\bin\EntityFramework.dll
+F:\DSP\Deportes\Deportes\bin\EntityFramework.SqlServer.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.Agent.Intercept.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.Web.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.ApplicationInsights.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.Web.Infrastructure.dll
+F:\DSP\Deportes\Deportes\bin\Newtonsoft.Json.dll
+F:\DSP\Deportes\Deportes\bin\Owin.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.Helpers.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.Mvc.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.Optimization.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.Razor.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.Deployment.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.dll
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.Razor.dll
+F:\DSP\Deportes\Deportes\bin\WebGrease.dll
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.Web.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.ApplicationInsights.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.Helpers.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.Mvc.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.Optimization.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.Razor.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.Deployment.xml
+F:\DSP\Deportes\Deportes\bin\System.Web.WebPages.Razor.xml
+F:\DSP\Deportes\Deportes\bin\Antlr3.Runtime.pdb
+F:\DSP\Deportes\Deportes\bin\Newtonsoft.Json.xml
+F:\DSP\Deportes\Deportes\bin\EntityFramework.xml
+F:\DSP\Deportes\Deportes\bin\EntityFramework.SqlServer.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.xml
+F:\DSP\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\DSP\Deportes\Deportes\obj\Debug\Deportes.dll
+F:\DSP\Deportes\Deportes\obj\Debug\Deportes.pdb
+F:\DSP\Deportes\Deportes\obj\Debug\Deportes.csprojResolveAssemblyReference.cache
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\ApplicationInsights.config
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\csc.exe
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\vbc.exe
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Deportes.dll.config
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Deportes.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Deportes.pdb
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Antlr3.Runtime.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\EntityFramework.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\EntityFramework.SqlServer.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.Web.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Newtonsoft.Json.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Owin.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Helpers.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Mvc.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Optimization.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Razor.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.Razor.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\WebGrease.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.Web.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Helpers.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Mvc.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Optimization.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.Razor.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\System.Web.WebPages.Razor.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Antlr3.Runtime.pdb
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Newtonsoft.Json.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\EntityFramework.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\EntityFramework.SqlServer.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\cruzponce\Desktop\Deportes\Deportes\obj\Debug\Deportes.csprojResolveAssemblyReference.cache
+C:\Users\cruzponce\Desktop\Deportes\Deportes\obj\Debug\Deportes.dll
+C:\Users\cruzponce\Desktop\Deportes\Deportes\obj\Debug\Deportes.pdb
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\ApplicationInsights.config
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\csc.exe
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\vbc.exe
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Deportes.dll.config
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Deportes.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Deportes.pdb
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Antlr3.Runtime.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\EntityFramework.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\EntityFramework.SqlServer.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.Web.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Newtonsoft.Json.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Owin.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Helpers.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Mvc.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Optimization.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Razor.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.Razor.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\WebGrease.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.Web.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Helpers.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Mvc.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Optimization.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.Razor.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\System.Web.WebPages.Razor.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Antlr3.Runtime.pdb
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Newtonsoft.Json.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\EntityFramework.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\EntityFramework.SqlServer.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\obj\Debug\Deportes.csprojResolveAssemblyReference.cache
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\obj\Debug\Deportes.dll
+C:\Users\cruzponce\Desktop\Variados Jochy 2017\Deportes\Deportes\obj\Debug\Deportes.pdb

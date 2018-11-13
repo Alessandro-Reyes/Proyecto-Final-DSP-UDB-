@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a6507002447349e7b9331c37f3eb9e56" Name="Diagram1">
+        <EntityTypeShape EntityType="DeportesModel.Almacen" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.Cliente" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.CompraProv" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.DevolucionProv" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.Productos" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.TipoTransaccion" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.Transacciones" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DeportesModel.Ventas" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <AssociationConnector Association="DeportesModel.FK_Almacen_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_DevolucionProv_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_Id_CompraProv" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_Id_Produ" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_Id_DevolucionProv" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_Id_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.Fk_Id_Produc" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.Fk_Id_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.FK_Id_TipoTrans" ManuallyRouted="false" />
+        <AssociationConnector Association="DeportesModel.Fk_Id_Ventas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

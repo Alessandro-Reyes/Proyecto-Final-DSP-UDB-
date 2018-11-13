@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DeportesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Almacen">
+    <Key>
+      <PropertyRef Name="Id_Almacen" />
+    </Key>
+    <Property Name="Id_Almacen" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreAlmacen" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaEntradaProducto" Type="date" Nullable="false" />
+    <Property Name="FechaSalidaProducto" Type="date" Nullable="false" />
+    <Property Name="Id_Productos" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id_Cliente" />
+    </Key>
+    <Property Name="Id_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dui" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompraProv">
+    <Key>
+      <PropertyRef Name="Id_Comprov" />
+    </Key>
+    <Property Name="Id_Comprov" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Productos" Type="int" Nullable="false" />
+    <Property Name="PrecioTotalCompra" Type="int" Nullable="false" />
+    <Property Name="FechaCompra" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DevolucionProv">
+    <Key>
+      <PropertyRef Name="Id_DevolucionProv" />
+    </Key>
+    <Property Name="Id_Productos" Type="int" Nullable="false" />
+    <Property Name="Cantidad_dep" Type="int" Nullable="false" />
+    <Property Name="Producto_dep" Type="int" Nullable="false" />
+    <Property Name="Id_DevolucionProv" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Cliente" Type="int" Nullable="false" />
+    <Property Name="FechaDevolucion" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="Id_Productos" />
+    </Key>
+    <Property Name="Id_Productos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoProducto" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Precio" Type="float" Nullable="false" />
+    <Property Name="Proveedor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Existencias" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoTransaccion">
+    <Key>
+      <PropertyRef Name="Id_TipoTrans" />
+    </Key>
+    <Property Name="Id_TipoTrans" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoTrans" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transacciones">
+    <Key>
+      <PropertyRef Name="Id_Trans" />
+    </Key>
+    <Property Name="Id_Trans" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Ventas" Type="int" Nullable="false" />
+    <Property Name="Id_Productos" Type="int" Nullable="false" />
+    <Property Name="Id_DevolucionProv" Type="int" Nullable="false" />
+    <Property Name="Id_Comprov" Type="int" Nullable="false" />
+    <Property Name="Id_TipoTrans" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ventas">
+    <Key>
+      <PropertyRef Name="Id_Ventas" />
+    </Key>
+    <Property Name="Id_Ventas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Productos" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="FechaVentas" Type="money" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Almacen_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="Almacen" Type="Self.Almacen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id_Productos" />
+      </Principal>
+      <Dependent Role="Almacen">
+        <PropertyRef Name="Id_Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DevolucionProv_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="DevolucionProv" Type="Self.DevolucionProv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id_Cliente" />
+      </Principal>
+      <Dependent Role="DevolucionProv">
+        <PropertyRef Name="Id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Id_CompraProv">
+    <End Role="CompraProv" Type="Self.CompraProv" Multiplicity="1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompraProv">
+        <PropertyRef Name="Id_Comprov" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="Id_Comprov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Id_DevolucionProv">
+    <End Role="DevolucionProv" Type="Self.DevolucionProv" Multiplicity="1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DevolucionProv">
+        <PropertyRef Name="Id_DevolucionProv" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="Id_DevolucionProv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Id_Produ">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="CompraProv" Type="Self.CompraProv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id_Productos" />
+      </Principal>
+      <Dependent Role="CompraProv">
+        <PropertyRef Name="Id_Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Id_Produc">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id_Productos" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="Id_Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Id_Product">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DevolucionProv" Type="Self.DevolucionProv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id_Productos" />
+      </Principal>
+      <Dependent Role="DevolucionProv">
+        <PropertyRef Name="Id_Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Id_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id_Productos" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="Id_Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Id_TipoTrans">
+    <End Role="TipoTransaccion" Type="Self.TipoTransaccion" Multiplicity="1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoTransaccion">
+        <PropertyRef Name="Id_TipoTrans" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="Id_TipoTrans" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Id_Ventas">
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ventas">
+        <PropertyRef Name="Id_Ventas" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="Id_Ventas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DeportesModelStoreContainer">
+    <EntitySet Name="Almacen" EntityType="Self.Almacen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompraProv" EntityType="Self.CompraProv" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DevolucionProv" EntityType="Self.DevolucionProv" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoTransaccion" EntityType="Self.TipoTransaccion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transacciones" EntityType="Self.Transacciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ventas" EntityType="Self.Ventas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Almacen_Productos" Association="Self.FK_Almacen_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Almacen" EntitySet="Almacen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DevolucionProv_Cliente" Association="Self.FK_DevolucionProv_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="DevolucionProv" EntitySet="DevolucionProv" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Id_CompraProv" Association="Self.FK_Id_CompraProv">
+      <End Role="CompraProv" EntitySet="CompraProv" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Id_DevolucionProv" Association="Self.FK_Id_DevolucionProv">
+      <End Role="DevolucionProv" EntitySet="DevolucionProv" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Id_Produ" Association="Self.FK_Id_Produ">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="CompraProv" EntitySet="CompraProv" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Id_Produc" Association="Self.Fk_Id_Produc">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Id_Product" Association="Self.FK_Id_Product">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DevolucionProv" EntitySet="DevolucionProv" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Id_Productos" Association="Self.Fk_Id_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Id_TipoTrans" Association="Self.FK_Id_TipoTrans">
+      <End Role="TipoTransaccion" EntitySet="TipoTransaccion" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Id_Ventas" Association="Self.Fk_Id_Ventas">
+      <End Role="Ventas" EntitySet="Ventas" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
