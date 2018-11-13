@@ -1,0 +1,29 @@
+F:\DSP\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe.config
+H:\DSP\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe.config
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.csprojResolveAssemblyReference.cache
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.admin.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.AdminProducto.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.empresa.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.Form1.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.menu.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.Properties.Resources.resources
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.csproj.GenerateResource.Cache
+F:\DSP\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe
+F:\DSP\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.pdb
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.exe
+F:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.pdb
+G:\DSP\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe.config
+G:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.exe
+G:\DSP\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.pdb
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe.config
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.exe
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.pdb
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.csprojResolveAssemblyReference.cache
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.AdminProducto.resources
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.empresa.resources
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.Form1.resources
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.menu.resources
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.Properties.Resources.resources
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\obj\Debug\ProyectoCatedra.csproj.GenerateResource.Cache
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.exe
+F:\DSP Proyecto\ProyectoCatedra\ProyectoCatedra\bin\Debug\ProyectoCatedra.pdb
